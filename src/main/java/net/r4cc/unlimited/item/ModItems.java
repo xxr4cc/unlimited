@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.r4cc.unlimited.Unlimited;
+import net.r4cc.unlimited.item.custom.DragonScale;
 
 //MODITEMS CLASS
 public class ModItems {
@@ -19,8 +20,8 @@ public class ModItems {
     //ITEMS
 
     //NAMRA_SCALE
-    public  static final RegistryObject<Item> NAMRA_SCALE = ITEMS.register("namra_scale",
-            () -> new Item(new Item.Properties()));
+    public  static final RegistryObject<DragonScale> NAMRA_SCALE = ITEMS.register("namra_scale",
+            () -> new DragonScale(new DragonScale.Properties()));
 
 
     //SEND EVENT BUS

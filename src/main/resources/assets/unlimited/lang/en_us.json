@@ -1,4 +1,6 @@
 {
   "item.unlimited.namra_scale": "Namra Scale",
-  "creativemodetab.unlimited_tab": "Unlimited"
+  "creativemodetab.unlimited_tab": "Unlimited",
+  "block.unlimited.namra_ore": "Namra Ore",
+  "block.unlimited.deepslate_namra_ore": "Deepslate Namra Ore"
 }
